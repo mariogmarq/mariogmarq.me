@@ -10,12 +10,12 @@ export default function NavBar({ url }: { url: URL }) {
       <div class="flex justify-center">
         <h1 class="font-mono font-bold mt-3 text-lg hover:text-[#CCAFA5] hover:cursor-pointer">
           <a href={"/about"}>
-            mariogmarq
+            Mario García Márquez
           </a>
         </h1>
       </div>
 
-      <div class="text-base max-w-sm xl:max-w-lg ml-auto mr-auto">
+      <div class="text-base max-w-[20rem] xl:max-w-lg ml-auto mr-auto mt-3">
         <div class="flex justify-center bg-[#DCD2CC] rounded-3xl">
           <ul class="my-5 block">
             {SECTIONS.map((s) => (
