@@ -34,21 +34,21 @@ export default function Home(props: PageProps) {
           with me don't hesitate in sending me an{" "}
           <a
             href="mailto:mariogarciamarq@gmail.com"
-            class="text-underline hover:text-[#0284c7]"
+            class="text-underline hover:text-[#CCAFA5]"
           >
             email
           </a>. Also if you want to know more about my professional trajectory
           you can checkout my{" "}
           <a
             href="/resume"
-            class="text-underline hover:text-[#0284c7]"
+            class="text-underline hover:text-[#CCAFA5]"
           >
             resume
           </a>{" "}
           or{" "}
           <a
             href="https://www.linkedin.com/in/mariogmarq/"
-            class="text-underline hover:text-[#0284c7]"
+            class="text-underline hover:text-[#CCAFA5]"
           >
             Linkedin
           </a>.
