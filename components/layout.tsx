@@ -10,7 +10,7 @@ const Layout: FunctionComponent<{ url: URL }> = ({ url, children }) => {
       <Head>
         <title>mariogmarq</title>
       </Head>
-      <main class="h-screen bg-[#EDE7DC]">
+      <main class="h-screen bg-[#EDE7DC] overflow-scroll">
         <NavBar url={url} />
         <div class="text-center">
           <div class="p-4 mx-auto max-w-screen-md">
