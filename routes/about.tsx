@@ -1,4 +1,4 @@
-import { Head } from "$fresh/runtime.ts";
+import { asset } from "$fresh/runtime.ts";
 import { PageProps } from "$fresh/server.ts";
 import Layout from "../components/layout.tsx";
 
@@ -40,7 +40,7 @@ export default function Home(props: PageProps) {
           </a>. Also if you want to know more about my professional trajectory
           you can checkout my{" "}
           <a
-            href="/resume"
+            href={asset("/CV.pdf")}
             class="text-underline hover:text-[#CCAFA5]"
           >
             resume
