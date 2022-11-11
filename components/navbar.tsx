@@ -1,6 +1,8 @@
+import {asset} from "$fresh/runtime.ts";
+
 const SECTIONS = [
   { name: "About me", url: "/about" },
-  { name: "Resume", url: "/resume" },
+  { name: "Resume", url: asset("/CV.pdf") },
   { name: "Works", url: "/works" },
 ];
 
