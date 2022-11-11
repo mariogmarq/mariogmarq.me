@@ -5,7 +5,7 @@ export default function Works({ url }: PageProps) {
     return (
         <Layout url={url}>
             <div class="my-6 font-sans text-xl text-left max-w-2xl">
-                Hola mundo
+                Here is a list of some of my works:
             </div>
         </Layout>
     )
