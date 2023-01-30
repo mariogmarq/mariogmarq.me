@@ -19,7 +19,14 @@ export default function Home(props: PageProps) {
           student from Granada, Spain. Currently I am in Aachen, Germany where I
           am doing the Erasmus+ program while taking master's courses about
           Computer Science. I am always learning new technologies and concepts.
-          I also like to code stuff that can make people life easier.
+          I also like to code stuff that can make people life easier. I am also
+          working right now at{"  "}
+          <a
+            href="https://www.badgermapping.com/"
+            class="text-underline hover:text-[#CCAFA5]"
+          >
+            Badgermaps
+          </a>!
         </p>
 
         <p class="my-4">
